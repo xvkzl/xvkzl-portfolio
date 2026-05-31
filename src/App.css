@@ -1,0 +1,12 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+.bio {
+    @apply text-white;
+    letter-spacing: 0.8em;
+    user-select: none;
+    transform-style: preserve-3d;
+    will-change: transform;
+    margin-top: -4px;
+    opacity: 0.75;
+}
